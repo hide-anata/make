@@ -1,0 +1,55 @@
+/* media.css */
+
+/* Import fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Love+Light&display=swap');
+
+/* General styles for all screens */
+* {
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Love Light', cursive;
+}
+
+body {
+    background-color: pink;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.letter-cons {
+    background-color: white;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.letter-con {
+    gap: 1rem;
+}
+
+.text {
+    text-align: center;
+    height: 2rem;
+}
+
+.image {
+    height: 2rem;
+}
+
+/* Styles specific to iPhone 13 */
+@media only screen and (max-device-width: 428px) {
+    body {
+        font-size: 16px;
+    }
+
+    .text {
+        font-size: 1.2em;
+        line-height: 1.4;
+    }
+
+    .image {
+        width: 100%;
+    }
+}

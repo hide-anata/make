@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+*{
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Love Light', cursive;
+}
+body{
+    background-color: pink;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+.letter-cons{
+    background-color: white;
+    border-radius: 2rem;
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+}
+.letter-con{
+    /* padding: 2rem; */
+    gap: 1rem;
+}
+.stext{
+    font-size: larger;
+    gap: 5rem;
+}
+.text{
+    text-align: center;
+    font-size: large;
+    height: 2rem;
+}
+.etext{
+    font-size: xx-large;
+    color: rgb(215, 105, 124);
+}
+/* .image{
+    /* height: 2rem; */
+/* } */
